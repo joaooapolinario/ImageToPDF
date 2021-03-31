@@ -38,16 +38,7 @@ while True:
         img.pop(0)
         img1.save(filename+'.pdf',save_all=True,append_images=img)
 
-        '''
-        for i in imgs:
-            imgDone.append(Image.open(i))
-
-        for n in range (len(imgDone)):
-            img.append(imgDone[n].convert('RGB'))'''
-
-
-
+      
     if event == sg.WIN_CLOSED or event == 'quit':
         
         break
-
